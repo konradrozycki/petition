@@ -1,7 +1,7 @@
 const spicedPg = require("spiced-pg");
 const db = spicedPg(
     process.env.DATABASE_URL ||
-        "postgres:postgres:postgres@localhost:5432/caper-petition"
+        "postgres:postgres:postgres@localhost:5432/petition"
 );
 
 module.exports.addSignature = (user_signature, user_id) => {
