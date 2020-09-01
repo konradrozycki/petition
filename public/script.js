@@ -2,7 +2,6 @@
     var canvas = $("#myCanvas");
     var submit = $(".submit");
     var signature = $("#signature");
-
     var ctx = canvas[0].getContext("2d");
 
     canvas.on("mousedown", function (event) {
