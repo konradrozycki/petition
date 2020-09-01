@@ -1,0 +1,21 @@
+<header>
+    <h1>Petition</h1>
+</header>
+        <main>
+            <br>
+            <img src="/littering.png" alt="littering"/>
+            <h2>Please log in.</h2>
+            <form method='post'>
+                <input type="email" id="email" name="email" required autocomplete="off"/>
+                <br>
+                <label for="email">Email Adress</label>
+                <p>
+                <input type="password" id="user_password" name="user_password" minlength="6" maxlength="20" required/>
+                <br>
+                <label for="user_password">Password</label>
+                <br /><br />
+                <input class="login" type="submit" value="LOG IN" />
+            </form>
+            <p>You don't have an account? <a href="/register">Register now!</a>.</p>
+        </main>
+{{> description home = true}}

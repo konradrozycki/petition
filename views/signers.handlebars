@@ -1,0 +1,33 @@
+<header>
+    <h1>THANK YOU!</h1>
+</header>
+        <main>
+            <h3>
+                Thank you so much for signing our petition to make 
+                Berlin a cleaner and nicer place to live!
+            </h3>
+            <p>Below you can see a list of people who arleady signed our petition:</p>
+
+
+<ul>
+{{#allData}}
+
+{{#if url}}
+    <a href="{{url}}" target="_blank">{{first_name}} {{last_name}}</a>
+{{else}}
+    {{first_name}} {{last_name}}
+{{/if}} 
+
+{{#if age}}
+    , {{age}}
+{{/if}} 
+
+{{#if city}}
+    , <a href = "/petition/signers/{{city}}">{{city}}</a>
+{{/if}}      
+</p>
+
+{{/allData}}
+</ul>
+        </main>
+{{> description home = true}}

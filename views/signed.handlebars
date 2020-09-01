@@ -1,0 +1,33 @@
+<header>
+    <h1>THANK YOU!</h1>
+</header>
+        <main>
+            <h3>
+                Thank you so much for signing our petition to make 
+                Berlin a cleaner and nicer place to live!
+            </h3>
+            <img
+                src="/littering.png"
+                alt="littering"
+            />
+    </br>
+            <img src={{signature}} class="signature" alt="your signature">
+            <p>
+                <a href="/petition/signers">See all who signed and care for enviorment</a>
+            </p>
+            <p>
+                <a href="/profile/edit">Edit your profile</a>
+            </p>
+            <p>
+                <form action="/signed/delete" method="POST">
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                    <input class="delete" type="submit" value="Delete your signature"/>
+                </form>
+                </br>
+                <form action="/login" method='POST'>
+                    <input type="hidden" name="logout" value="" />
+                    <input class="logout" type="submit" value="LOGOUT" />
+                </form>
+            </p>
+        </main>
+{{> description home = true}}

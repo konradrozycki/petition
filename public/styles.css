@@ -1,0 +1,86 @@
+* {
+    font-family: "Oswald", sans-serif;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+header {
+    background-color: #3ace3a;
+    position: relative;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+}
+main {
+    background: #e9ffe9;
+    position: relative;
+    background-size: cover;
+    flex: 1;
+}
+#myCanvas {
+    border: 1px solid black;
+    background-color: white;
+}
+.signature {
+    margin-top: 0px;
+}
+.submit {
+    border: 2px solid #006747;
+    background-color: #009639;
+    color: white;
+    width: 14vw;
+    height: 3vw;
+    border-radius: 10px;
+    font-size: 1.4vw;
+}
+footer {
+    background-color: #3ace3a;
+    text-align: left;
+    height: 40px;
+    padding-left: 2vw;
+    padding-top: 10px;
+}
+ul {
+    list-style-type: none;
+}
+.err-msg {
+    color: red;
+}
+.login,
+.signup,
+.update,
+.continue,
+.logout,
+.button {
+    border: 2px solid #006747;
+    background-color: #009639;
+    color: white;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.signature {
+    border: 1px solid black;
+    background-color: white;
+}
+.err-container {
+    background-color: #e9ffe9;
+}

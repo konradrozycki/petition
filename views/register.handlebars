@@ -1,0 +1,32 @@
+<header>
+    <h1>Petition</h1>
+</header>
+        <main>
+            <br>
+            <img src="/littering.png" alt="littering"/>
+            <h3>Berlin without littering is at hand!
+                But we won't get there without your support.
+                Join our campaign today!
+            </h3>
+            <form method='post'>
+                <input type='text' id='first_name' name='first_name' required autocomplete="off">
+                <br>
+                <label for='first_name'>First Name</label>
+                <p>
+                <input type='text' id='last_name' name='last_name' required autocomplete="off">
+                <br>
+                <label for='last_name'>Last Name</label>
+                <p>
+                <input type="email" id="email" name="email" required autocomplete="off"/>
+                <br>
+                <label for="email">Email Adress</label>
+                <p>
+                <input type="password" id="user_password" name="user_password" minlength="6" maxlength="20" required autocomplete="off"/>
+                <br>
+                <label for="user_password">Password</label>
+                <br /><br />
+                <input class="signup" type="submit" value="SIGN UP" />
+            </form>
+            <p>If you are already a member, please <a href="/login">log in</a>.</p>
+        </main>
+{{> description home = true}}
