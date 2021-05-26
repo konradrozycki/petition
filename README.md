@@ -8,7 +8,7 @@ Authenticated petition website. Sign it if you want to stop littering in Berlin.
 <li>see other signers (name, age, city)</li>
 <li>edit profile info</li>
   <li>delete your signature</li>
-<ul>
+</ul>
   
 ## Available Scripts
 
