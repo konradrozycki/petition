@@ -2,12 +2,12 @@
 Authenticated petition website. Sign it if you want to stop littering in Berlin.
 
 # Features 
-
-sign the petition by drawing your signature on a canvas<br />
-see other signers (name, age, city)<br />
-edit profile info<br />
-delete your signature<br />
-
+<ul>
+<li>sign the petition by drawing your signature on a canvas</li>
+<li>see other signers (name, age, city)</li>
+<li>edit profile info</li>
+  <li>delete your signature</li>
+<ul>
 ## Available Scripts
 
 In the project directory, you can run:
